@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 32.171 s <<< FAILURE! - in TestSuite
+ValidateNavgation(E2EProject.Maven.validateNavigationBar)  Time elapsed: 0.389 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at E2EProject.Maven.validateNavigationBar.ValidateNavgation(validateNavigationBar.java:41)
+
+basePageNavigation(E2EProject.Maven.HomePage)  Time elapsed: 10.421 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"img[class='img-responsive']"}
+  (Session info: headless chrome=84.0.4147.135)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-EBKPB7F', ip: '192.168.1.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\praty\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3bfdcbbbca2300016c2a1ce65fc52103
+*** Element info: {Using=css selector, value=img[class='img-responsive']}
+	at E2EProject.Maven.HomePage.basePageNavigation(HomePage.java:41)
+
+basePageNavigation(E2EProject.Maven.HomePage)  Time elapsed: 11.435 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"img[class='img-responsive']"}
+  (Session info: headless chrome=84.0.4147.135)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-EBKPB7F', ip: '192.168.1.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\praty\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52622}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3bfdcbbbca2300016c2a1ce65fc52103
+*** Element info: {Using=css selector, value=img[class='img-responsive']}
+	at E2EProject.Maven.HomePage.basePageNavigation(HomePage.java:41)
+

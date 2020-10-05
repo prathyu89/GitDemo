@@ -1,0 +1,4 @@
+resources\base.class
+E2EProject\Maven\App.class
+pageObject\LandingPage.class
+pageObject\LoginPage.class

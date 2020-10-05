@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="E2EProject.Maven.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Validating Title(failed)" parallel="tests">
+    <classes>
+      <class name="E2EProject.Maven.validateTitle">
+        <methods>
+          <include name="initilization"/>
+          <include name="validateAppTitle"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- E2EProject.Maven.validateTitle -->
+    </classes>
+  </test> <!-- Validating Title(failed) -->
+  <test thread-count="5" name="Home page(failed)" parallel="tests">
+    <classes>
+      <class name="E2EProject.Maven.HomePage">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initilization"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- E2EProject.Maven.HomePage -->
+    </classes>
+  </test> <!-- Home page(failed) -->
+  <test thread-count="5" name="Navigation Bar(failed)" parallel="tests">
+    <classes>
+      <class name="E2EProject.Maven.validateNavigationBar">
+        <methods>
+          <include name="teardown"/>
+          <include name="ValidateNavgation"/>
+          <include name="initilization"/>
+        </methods>
+      </class> <!-- E2EProject.Maven.validateNavigationBar -->
+    </classes>
+  </test> <!-- Navigation Bar(failed) -->
+</suite> <!-- Failed suite [Suite] -->

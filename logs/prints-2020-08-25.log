@@ -1,0 +1,7 @@
+10:34:56.919 [TestNG-tests-2] INFO  resources.base - Driver is initilization
+10:34:59.282 [TestNG-tests-2] INFO  resources.base - Navigated to home page
+10:34:59.381 [TestNG-tests-3] INFO  resources.base - Navigated bar is displayed
+10:35:00.300 [TestNG-tests-2] INFO  resources.base - Successful passed Text message
+10:35:01.112 [TestNG-tests-1] INFO  resources.base - restricteddata
+10:35:03.532 [TestNG-tests-1] INFO  resources.base - unrestricteddata
+10:41:46.645 [TestNG-tests-2] INFO  resources.base - Driver is initilization
